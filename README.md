@@ -18,3 +18,10 @@ This is going to be a repo dedicated for my vim learning, vim config, and some r
 Now, I mainly use the neovim plug-in for VSCode at work, and used the neovim only for personal development outside of work
 
 目前我主要用 VS code 的 neovim 插件來應付工作試的開發任務，平時則用 neovim 去開發
+
+# Learning Notes (學習隨筆)
+
+```
+m followed by a letter to set a mark
+```
+
