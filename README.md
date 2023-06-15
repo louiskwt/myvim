@@ -21,7 +21,15 @@ Now, I mainly use the neovim plug-in for VSCode at work, and used the neovim onl
 
 # Learning Notes (學習隨筆)
 
+## SET A MARK 加標注
+
 ```
 m followed by a letter to set a mark
+
 ```
+
+## Duplicate a blcok of code 重複代碼
+
+1. Select the target code in V mode
+2. Hit : , then enter t'> + enter to copy the selected code to next line 
 
