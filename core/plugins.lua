@@ -23,7 +23,7 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'  -- powerline for neo vim
   use 'nvim-treesitter/nvim-treesitter' -- syntax highlighting
   use {
-    'nvim-telescope/telescope.nvim',
+    'nvim-telescope/telescope.nvim', -- for fuzzy find
     tag = '0.1.0',
     requires = {{'nvim-lua/plenary.nvim'}}
   }
