@@ -1,0 +1,103 @@
+{
+  "editor.accessibilityPageSize": 14,
+  "editor.fontSize": 18,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "python.formatting.provider": "black",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.cursorSurroundingLines": 10,
+  "html.format.templating": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "search.mode": "newEditor",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "python": false,
+    "javascript": true,
+    "lua": false,
+    "c": false,
+    "html": false
+  },
+  "vim.leader": "<Space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Navigation
+    // Switch b/w buffers
+    { "before": ["<S-h>"], "commands": [":bprevious"] },
+    { "before": ["<S-l>"], "commands": [":bnext"] },
+    // splits
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+    //panes
+    { "before": ["leader", "h"], "commands": ["workbench.action.focusLeftGroup"] },
+    { "before": ["leader", "j"], "commands": ["workbench.action.focusBelowGroup"] },
+    { "before": ["leader", "k"], "commands": ["workbench.action.focusAboveGroup"] },
+    { "before": ["leader", "l"], "commands": ["workbench.action.focusRightGroup"] },
+    // File Tree
+    { "before": ["leader", "e"], "commands": ["workbench.view.explorer"] },
+    // Nice to have bindings
+    { "before": ["leader", "w"], "commands": ["workbench.action.files.save"] },
+    { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["leader", "p"], "commands": ["workbench.action.formatDocument"] },
+    // LSP
+    { "before": ["g", "h"], "commands": ["editor.action.showDefinitionPreviewHover"] },
+    { "before": ["g", "d"], "commands": ["editor.action.goToDefinition"] },
+    { "before": ["g", "i"], "commands": ["editor.action.goToImplementation"] },
+    { "before": ["g", "r"], "commands": ["editor.action.goToReferences"] }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["leader", "j"],
+      "after": ["<Esc>"]
+    },
+    // stay in visual mode while indenting
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    // move line while in select mode
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    // commenting out code
+    {
+      "before": ["leader", "c"],
+      "commands": ["editor.action.commentLine"]
+    }
+  ],
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.printWidth": 120,
+  "prettier.bracketSameLine": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": false
+}
