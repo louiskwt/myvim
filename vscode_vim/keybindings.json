@@ -11,15 +11,6 @@
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
-  {
-    "key": "shift+j",
-    "command": "workbench.action.togglePanel"
-  },
-  {
-    "key": "shift+n",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
-  },
   // File Tree
   {
     "key": "Space e",
