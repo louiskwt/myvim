@@ -31,6 +31,13 @@ m followed by a letter to set a mark
 1. Select the target code in V mode
 2. Hit : , then enter t'> + enter to copy the selected code to next line 
 
+## Replace Text
+
+```
+:start,end s/pattern/strings_to_replace/g
+
+```
+
 ## Nvim web-devicons Not showing Issue
 
 1. You needed to install and used a patched font like [NerdFont]("https://www.nerdfonts.com/font-downloads")
