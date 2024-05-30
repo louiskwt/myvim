@@ -42,3 +42,13 @@ m followed by a letter to set a mark
 
 1. You needed to install and used a patched font like [NerdFont]("https://www.nerdfonts.com/font-downloads")
 2. Make sure to use the Patched Font inside your terminals (like iTerms), for set up, please refer to [this site]("https://webinstall.dev/nerdfont/")
+
+## Norm
+
+```
+%norm A"
+
+```
+
+- inserted " at the end of each line
+
