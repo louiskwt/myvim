@@ -1,0 +1,15 @@
+call plug#begin('~/.vim/plugged')
+
+" Plugin goes here
+
+" Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" NerdTree
+Plug 'preservim/nerdtree'
+
+" Theme
+Plug 'nanotech/jellybeans.vim', { 'tag': 'v1.7' }
+
+call plug#end()
+
