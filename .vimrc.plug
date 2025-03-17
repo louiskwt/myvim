@@ -11,5 +11,10 @@ Plug 'preservim/nerdtree'
 " Theme
 Plug 'nanotech/jellybeans.vim', { 'tag': 'v1.7' }
 
+" LSP
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+
+
 call plug#end()
 
