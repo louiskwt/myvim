@@ -37,6 +37,9 @@ set ttyfast
 set ignorecase
 set smartcase
 
+" Clipboard
+set clipboard=unnamed
+
 " Mapping
 let mapleader=" "      " Set leader key before mappings
 nnoremap <SPACE> <Nop> 
